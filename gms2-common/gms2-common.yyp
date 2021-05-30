@@ -4,6 +4,7 @@
     {"id":{"name":"cm_assert_example_o","path":"objects/cm_assert_example_o/cm_assert_example_o.yy",},"order":0,},
     {"id":{"name":"math","path":"scripts/math/math.yy",},"order":1,},
     {"id":{"name":"array_extension","path":"scripts/array_extension/array_extension.yy",},"order":2,},
+    {"id":{"name":"package_metadata.txt","path":"notes/package_metadata.txt/package_metadata.txt.yy",},"order":0,},
     {"id":{"name":"uuid","path":"scripts/uuid/uuid.yy",},"order":2,},
     {"id":{"name":"view_utils","path":"scripts/view_utils/view_utils.yy",},"order":3,},
     {"id":{"name":"list_extension","path":"scripts/list_extension/list_extension.yy",},"order":1,},
