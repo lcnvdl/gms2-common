@@ -4,4 +4,3 @@ function ds_map_foreach(map, fn, _args) {
 	  fn(v, k, _args);
 	}
 }
-
