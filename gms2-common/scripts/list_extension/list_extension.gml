@@ -1,3 +1,9 @@
+/// @function ds_list_toArray(list)
+/** 
+* Converts a ds_list into an array.
+* @param {*} list - List to convert.
+* @return {[]} Array.
+*/
 function ds_list_toArray(list) {
 	var arr = array_create(ds_list_size(list));
 	
