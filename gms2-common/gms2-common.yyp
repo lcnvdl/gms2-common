@@ -12,6 +12,7 @@
     {"id":{"name":"instance_extensions","path":"scripts/instance_extensions/instance_extensions.yy",},"order":0,},
     {"id":{"name":"queue_extension","path":"scripts/queue_extension/queue_extension.yy",},"order":0,},
     {"id":{"name":"map_extension","path":"scripts/map_extension/map_extension.yy",},"order":4,},
+    {"id":{"name":"file_scripts","path":"scripts/file_scripts/file_scripts.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -56,6 +57,7 @@
     {"folderPath":"folders/Rooms/Gms2_Common_Example.yy","order":1,"resourceVersion":"1.0","name":"Gms2_Common_Example","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Gms2_Common/Tests.yy","order":6,"resourceVersion":"1.0","name":"Tests","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Gms2_Common/Extensions.yy","order":7,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Gms2_Common/IO.yy","order":8,"resourceVersion":"1.0","name":"IO","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -65,7 +67,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "gms2-common",
