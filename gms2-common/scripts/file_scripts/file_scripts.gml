@@ -18,4 +18,6 @@ function file_read_all_text(filename) {
 	}
 	
 	file_text_close(stream);
+	
+	return content;
 }
