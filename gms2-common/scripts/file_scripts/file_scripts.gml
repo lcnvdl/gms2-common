@@ -53,7 +53,7 @@ function file_copy_dir(source, target, attributes) {
 			i += 1;
 			from = source + "/" + fname;
 			to = target + "/" + fname;
-			if (file_attributes(from, fa_directory)) {
+			if (directory_exists(from)) {
 					file_copy_dir(from, to, attributes);
 			} else {
 					file_copy(from, to);
