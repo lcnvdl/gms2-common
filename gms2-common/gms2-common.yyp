@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"csv_scripts","path":"scripts/csv_scripts/csv_scripts.yy",},"order":1,},
     {"id":{"name":"assert","path":"scripts/assert/assert.yy",},"order":0,},
     {"id":{"name":"cm_assert_example_o","path":"objects/cm_assert_example_o/cm_assert_example_o.yy",},"order":0,},
     {"id":{"name":"math","path":"scripts/math/math.yy",},"order":1,},
@@ -25,6 +26,7 @@
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
     {"name":"iOS","path":"options/ios/options_ios.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -67,7 +69,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "gms2-common",
