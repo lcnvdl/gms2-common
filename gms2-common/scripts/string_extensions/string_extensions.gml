@@ -18,3 +18,17 @@ function string_split(separator, text){
 	
 	return splits;
 }
+
+function string_join(chain, stringArray){
+	var finalText = "";
+
+	for(var i = 0; i < array_length(stringArray); i++) {
+		if(i > 0) {
+			finalText += chain;	
+		}
+		
+		finalText += stringArray[i];
+	}
+	
+	return finalText;
+}
