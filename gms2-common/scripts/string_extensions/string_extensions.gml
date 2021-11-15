@@ -32,3 +32,56 @@ function string_join(chain, stringArray){
 	
 	return finalText;
 }
+
+/// @function string_trim(text, side, char)
+/** 
+* Removes leading and trailing matches of a string.
+* @param {string} text - Text to trim.
+* @param {string} [side='both'] - "left", "right" or "both". Uses "both" when empty.
+* @param {string} [char=' '] - Character to remove. Uses the " " character (space) when empty.
+* @return {string} Trimmed text.
+*/
+function string_trim() {
+	var str = string(argument[0]);
+	var side = "both";
+	var char = " ";
+	
+	if argument_count >= 2 { 
+		if (argument[1] == "left" || argument[1] == "right" || argument[1] == "both")
+		side = argument[1];
+	}
+	
+	if argument_count == 3 { 
+		char = string(argument[2]);
+	}
+	
+	var newString = str;
+	if (side == "left" || side == "both") {
+		var _start = 0;
+		for(var i = 1; i <= string_length(newString); i++) {
+			if (string_char_at(newString, i) != char) {
+				_start = i - 1;
+				break;
+			}
+		}
+		if (_start != 0) {
+			newString = string_delete(newString, 1, _start);
+		}
+	}
+	
+	if (side == "right" || side == "both") {
+		var _end = 0
+		for(var i = string_length(newString); i > 0; i--) {
+			if (string_char_at(newString, i) != char) {
+				_end = i + 1;
+				break;
+			}
+		}
+		
+		if (_end != 0) {
+			newString = string_delete(newString, _end, string_length(newString));
+		}
+	}
+
+	return newString;
+}
