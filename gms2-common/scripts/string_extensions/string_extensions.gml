@@ -19,6 +19,25 @@ function string_split(separator, text){
 	return splits;
 }
 
+function string_join_args() {
+	var finalText = "";
+	var chain = argument[0];
+
+	for (var i = 1; i < argument_count; i += 1) {
+		if(i > 1) {
+			finalText += chain;	
+		}
+		
+	   if (is_string(argument[i])) {
+	       finalText += argument[i];
+	   } else {
+	       finalText += string(argument[i]);
+	   }
+	}
+	
+	return finalText;
+}
+
 function string_join(chain, stringArray){
 	var finalText = "";
 

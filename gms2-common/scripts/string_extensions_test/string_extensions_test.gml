@@ -14,6 +14,11 @@ test_f(StringExtensionsTest, "string_split should work fine", function() {
 	gmltest_expect_eq("world", result[2]);
 });
 
+test_f(StringExtensionsTest, "string_join_args should work fine", function() {
+	var result = string_join_args(" ", "hello", "world", 13);
+	gmltest_expect_eq("hello world 13", result);
+});
+
 test_f(StringExtensionsTest, "string_join should work fine", function() {
 	var result = string_join(" ", ["hello", "world"]);
 	gmltest_expect_eq("hello world", result);
