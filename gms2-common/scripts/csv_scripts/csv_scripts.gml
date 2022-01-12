@@ -1,6 +1,6 @@
 /// @function csv_load_ext(file, force_strings, cell_delimiter, mac_newline)
 /** 
-* Copies contents from source directory to target directory.
+* Reads a CSV file, returning a grid.
 * Add fa_directory to attributes for recursive copying.
 * @param file Filename for the source UTF-8 CSV file
 * @param [force_strings] Whether to force all cells to be a string. Defaults to false
