@@ -3,7 +3,7 @@ Common scripts for GameMaker Studio 2.3+ developers.
 
 ## How to contribute?
 1. Adding more functions.
-2. Writing this Readme.md.
+2. Adding content to `README.md` (this file).
 
 ## Glossary
 Extension
