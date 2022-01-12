@@ -96,7 +96,49 @@ Example
 TODO
 ```
 
-## Instance Extensions
+## Queue extensions
+### ds_queue_firstOrDefault
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Struct extensions
+### struct_foreach
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### struct_secure_save
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### struct_secure_load
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Instance extensions
 ### instance_create
 Description
 ```
@@ -106,6 +148,7 @@ Example
 ```
 TODO
 ```
+
 ### instance_get_width
 Description
 ```
@@ -126,6 +169,47 @@ TODO
 ```
 
 ### instance_get_all
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## String extensions
+### string_split
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### string_join_args
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### string_join
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### string_trim
 Description
 ```
 TODO
@@ -270,6 +354,81 @@ TODO
 ```
 
 ### path_join
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Platform (OS) extensions
+### platform_is_browser
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## View utils
+
+### fixedX
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### fixedY
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### fixedRight
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### viewW
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### viewH
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## MISC
+
+### getUuid
 Description
 ```
 TODO
