@@ -24,6 +24,78 @@ array_foreach(myArray, function(value, index) {
 });
 ```
 
+### array_findIndex
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## List Extensions
+### ds_list_toArray
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### ds_list_removeAll
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### ds_list_findIndex
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### ds_list_firstOrDefault
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### ds_list_foreach
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Map Extensions
+### ds_map_foreach
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
 ## Instance Extensions
 ### instance_create
 Description
@@ -53,6 +125,77 @@ Example
 TODO
 ```
 
+### instance_get_all
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Math extensions
+### choose2
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### damp
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### smooth_damp
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### damp_angle
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### chance
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### ichance
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
 ## File extensions
 ### csv_load_ext
 Description
@@ -63,7 +206,6 @@ Example
 ```
 TODO
 ```
-
 
 ### file_write_all_text
 Description
@@ -96,6 +238,38 @@ TODO
 ```
 
 ### file_find_all
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+## Path (IO) extension
+
+### path_set_separator
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### path_get_separator
+Description
+```
+TODO
+```
+Example
+```
+TODO
+```
+
+### path_join
 Description
 ```
 TODO
