@@ -440,4 +440,4 @@ TODO
 
 ## TODO
 
-Documentar las funciones.
+Queda pendiente documentar las funciones en este `README.md`. 
