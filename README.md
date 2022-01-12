@@ -1,5 +1,5 @@
 # gms2-common
-Common scripts for all my GMS2 Libraries.
+Common scripts for GameMaker Studio 2.3+ developers.
 
 ## How to contribute?
 1. Adding more functions.
