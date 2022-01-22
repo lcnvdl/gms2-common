@@ -8,4 +8,4 @@ Package ID:
 gms2-common
 
 Version:
-0.0.1
+0.0.2
