@@ -29,6 +29,15 @@ function ArrayList(_arr) constructor {
 		return array_find_index(_data, value);
 	};
 	
+	static Sort = function() {
+		if (argument_count > 0) {
+			array_sort(_data, argument0);
+		}
+		else {
+			array_sort(_data, true);
+		}
+	};
+	
 	static Set = function(idx, value) {
 		_data[idx] = value;
 	};

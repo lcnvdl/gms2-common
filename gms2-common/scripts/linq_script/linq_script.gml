@@ -21,6 +21,10 @@ function GetStructureOf(x) {
 }
 
 function GetEnumeratorOf(x){
+	if(is_array(x)) {
+		return new ArrayEnumerator(x);
+	}
+	
 	return x.GetEnumerator();
 }
 

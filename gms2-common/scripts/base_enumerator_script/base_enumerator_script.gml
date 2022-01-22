@@ -1,7 +1,18 @@
 function BaseEnumerator() constructor {
 	static Any = function() {
 		Reset();
-		return MoveNext();
+		
+		if (argument_count == 0) {
+			return MoveNext();
+		}
+		
+		while(MoveNext()) {
+			if (argument[0](GetCurrent())) {
+				return true;	
+			}
+		}
+			
+		return false;
 	};
 	
 	static Count = function() {
@@ -101,7 +112,7 @@ function BaseEnumerator() constructor {
 		var arrayList = new ArrayList();
 		Reset();
 		while(MoveNext()) {
-			arrayList.Push(GetCurrent());	
+			arrayList.Push(GetCurrent());
 		}
 		return arrayList;
 	};
