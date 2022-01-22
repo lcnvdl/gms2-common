@@ -52,4 +52,13 @@ function ds_list_foreach(list, fn, args) {
 	}
 }
 
+function auto_ds_list(_cb) {
+	var list = ds_list_create();
+	try {
+		_cb(list);
+	}
+	finally {
+		ds_list_destroy(list);
+	}
+}
 
