@@ -33,3 +33,17 @@ test_f(StringExtensionsTest, "string_trim left should remove the spaces from lef
 	var result = string_trim(" hi world ", "left");
 	gmltest_expect_eq("hi world ", result);
 });
+
+test_f(StringExtensionsTest, "starts_with should work fine", function() {
+	var shouldBeTrue = string_starts_with("hello world", "hello");
+	var shouldBeFalse = string_starts_with("goodbye world", "hello");
+	gmltest_expect_true(shouldBeTrue);
+	gmltest_expect_false(shouldBeFalse);
+});
+
+test_f(StringExtensionsTest, "ends_with should work fine", function() {
+	var shouldBeTrue = string_ends_with("hello world", "world");
+	var shouldBeFalse = string_ends_with("goodbye country", "world");
+	gmltest_expect_true(shouldBeTrue);
+	gmltest_expect_false(shouldBeFalse);
+});
