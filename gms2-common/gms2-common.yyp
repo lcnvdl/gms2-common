@@ -3,6 +3,7 @@
     {"id":{"name":"linq_experimental_test","path":"scripts/linq_experimental_test/linq_experimental_test.yy",},"order":5,},
     {"id":{"name":"array_list_script","path":"scripts/array_list_script/array_list_script.yy",},"order":0,},
     {"id":{"name":"csv_scripts","path":"scripts/csv_scripts/csv_scripts.yy",},"order":1,},
+    {"id":{"name":"ds_list_extensions_test","path":"scripts/ds_list_extensions_test/ds_list_extensions_test.yy",},"order":8,},
     {"id":{"name":"assert","path":"scripts/assert/assert.yy",},"order":0,},
     {"id":{"name":"linq_experimental_script","path":"scripts/linq_experimental_script/linq_experimental_script.yy",},"order":4,},
     {"id":{"name":"GMLTest_Private","path":"scripts/GMLTest_Private/GMLTest_Private.yy",},"order":17,},
