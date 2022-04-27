@@ -15,7 +15,7 @@ function Dictionary(_struct) constructor {
 	
 	static GetAt = function(idx) {
 		var key = variable_struct_get_names(_data)[idx];
-		return Get({ key: key, value: Get(key) });
+		return { key: key, value: Get(key) };
 	};
 	
 	static Clear = function() {
