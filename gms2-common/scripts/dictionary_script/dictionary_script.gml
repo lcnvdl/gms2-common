@@ -6,7 +6,11 @@ function Dictionary(_struct) constructor {
 	};
 	
 	static Get = function(key) {
-		return _data[$ idx];
+		return _data[$ key];
+	};
+	
+	static Remove = function(key) {
+		variable_struct_remove(_data, key);
 	};
 	
 	static GetAt = function(idx) {
